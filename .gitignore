@@ -1,6 +1,13 @@
 # Visual Studio 2015 user specific files
 .vs/
 
+# Mac OS X
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+._*
+
 # Compiled Object files
 *.slo
 *.lo
@@ -69,6 +76,9 @@ Saved/*
 # Compiled source files for the engine to use
 Intermediate/*
 Plugins/*/Intermediate/*
+
+# RiderLink Plugin
+Plugins//RiderLink/
 
 # Cache files for the editor to use
 DerivedDataCache/*
